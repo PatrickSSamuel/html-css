@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    color: indigo;
+    text-decoration: none;
+    font-weight: bold;
+    
+}
+ 
+a:visited { 
+    color: yellow;
+}
+
+a:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+a:active {
+    color: red;
+}
+
+.especial {
+    background-color: aqua;
+}
+.especial::before {
+    content: '♫; ';
+
+}
+.especial::after {
+    content: '♬;';
+    text-decoration: none;
+    font-weight: normal;
+    color: grey;
+}
